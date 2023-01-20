@@ -91,7 +91,6 @@ enum layer_names {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_QWERTY] = LAYOUT_wrapper(
-    // clang-format off
     ___________________QWERTY_L1_x6_____________________,                      ___________________QWERTY_R1_x6_____________________,
     ___________________QWERTY_L2_x6_____________________,                      ___________________QWERTY_R2_x6_____________________,
     ___________________QWERTY_L3_x6_____________________,                      ___________________QWERTY_R3_x6_____________________,

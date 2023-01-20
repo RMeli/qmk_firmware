@@ -1,14 +1,19 @@
-Copyright 2022 Rocco Meli @RMeli
+# @RMeli User Space
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-(at your option) any later version.
+## Keyboards
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
+| Keyboard | MCU | Vendor |
+| -------- | --- | ------ |
+| `crkbd/r2g` |[ATmega32U][ATmega32U] | [Mechboards][crkbd/r2g] |
+| `boardsource/lulu/rp2040` | [RP2040][RP2040] | [Boardsource][lulu] |
+| `preonic/rev3` | [ARM STM32][ARM STM32] | [Drop][preonic] |
+| `evyd13/pockettype` | [ATmega32U][ATmega32U] | [Mechboards][pockettype] |
 
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+[crkbd/r2g]: https://mechboards.co.uk/collections/newest-products/products/helidox-corne-kit
+[lulu]: https://boardsource.xyz/projects/60de24d6847112054777bbdd
+[preonic]: https://drop.com/buy/preonic-mechanical-keyboard/details
+[pockettype]: https://mechboards.co.uk/products/pockettype
+
+[ARM STM32]: https://www.st.com/en/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus.html
+[ATmega32U]: https://www.microchip.com/en-us/product/ATmega32U4
+[RP2040]: https://www.raspberrypi.com/documentation/microcontrollers/rp2040.html
