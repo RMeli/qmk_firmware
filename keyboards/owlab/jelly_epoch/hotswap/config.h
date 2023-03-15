@@ -17,26 +17,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
-
-/* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 14
-
-/* Keyboard Matrix Assignments */
-#define MATRIX_ROW_PINS { B0, B1, B2, B3, A15, B10 }
-#define MATRIX_COL_PINS { A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, B11, B8, B9, C13 }
-
-/* COL2ROW, ROW2COL */
-#define DIODE_DIRECTION COL2ROW
-
-/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
-
 /* NKRO */
-#ifdef NKRO_ENABLE
-#    define FORCE_NKRO
-#endif
+#define FORCE_NKRO
 
 /* RGB Strip*/
 #define RGB_DI_PIN B15

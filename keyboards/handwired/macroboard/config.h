@@ -17,25 +17,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#include "config_common.h"
-
-/* key matrix size */
-#define MATRIX_ROWS 5
-#define MATRIX_COLS 6
-
-/*
- * Keyboard Matrix Assignments
- *
- * Change this to how you wired your keyboard
- * COLS: AVR pins used for columns, left to right
- * ROWS: AVR pins used for rows, top to bottom
- * DIODE_DIRECTION: COL2ROW = COL = Anode (+), ROW = Cathode (-, marked on diode)
- *                  ROW2COL = ROW = Anode (+), COL = Cathode (-, marked on diode)
- *
- */
-
-#define DIODE_DIRECTION COL2ROW
-
 #define RGB_DI_PIN B9
 #define WS2812_PWM_DRIVER   PWMD4
 #define WS2812_PWM_CHANNEL  4
@@ -62,9 +43,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#    define RGBLIGHT_EFFECT_RGB_TEST
 #    define RGBLIGHT_EFFECT_ALTERNATING
 #endif
-
-/* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
 #define LOCKING_SUPPORT_ENABLE
