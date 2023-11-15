@@ -14,6 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
+#include "keycodes.h"
 #include QMK_KEYBOARD_H
 
 #include "rmeli.h"
@@ -61,7 +62,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [_LOWER] = LAYOUT_wrapper(
-    _______, ______________NUMBER_LEFT_x5_______________,                 ______________NUMBER_RIGHT_x5______________, _______,
+    _______, ______________NUMBER_LEFT_x5_______________,                 ______________NUMBER_RIGHT_x5______________,  KC_DEL,
     _______, ______________UNICODE_L2_x5________________,                 ________________NAV_R2_x5__________________, XXXXXXX,
     _______, ______________UNICODE_L3_x5________________,                 ________________NAV_R3_x5__________________, _______,
                                            _______, _______, _______, _______, _______
